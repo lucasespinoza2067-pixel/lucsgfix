@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #111;
+    color: #fff;
+}
+
+/* HERO */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    gap: 40px;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #ccc;
+}
+
+/* BOTONES */
+.btn-whatsapp,
+.btn-instagram {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-right: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Botón WhatsApp */
+.btn-whatsapp {
+    background: #25d366;
+}
+
+.btn-whatsapp:hover {
+    background: #1da851;
+}
+
+/* Botón Instagram */
+.btn-instagram {
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+}
+
+.btn-instagram:hover {
+    opacity: 0.8;
+}
+
+/* IMÁGENES */
+.hero-images {
+    display: flex;
+    gap: 15px;
+}
+
+.hero-images img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 0 10px black;
+    transition: 0.3s;
+}
+
+.hero-images img:hover {
+    transform: scale(1.05);
+}
+
+/* SERVICIOS */
+.servicios {
+    padding: 60px 80px;
+    background: #1a1a1a;
+}
+
+.servicios h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.servicio {
+    background: #222;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 10px black;
+}
+
+.servicio h3 {
+    color: #00ffcc;
+    margin-bottom: 10px;
+}
